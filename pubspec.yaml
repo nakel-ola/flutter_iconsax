@@ -1,0 +1,32 @@
+name: flutter_iconsax
+description: Flutter iconsax set of SVG icons in your Flutterapp. Bold, broken, bulk, linear, outline, twotone icon version are available.
+version: 0.1.0
+homepage: https://github.com/olamilekan21/flutter_iconsax
+
+environment:
+  sdk: ">=2.19.3 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.4
+  path: ^1.8.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  code_builder: ^4.4.0
+  dart_style: ^2.3.0
+  recase: ^4.1.0
+
+flutter:
+  assets:
+    - assets/
+    - assets/bold
+    - assets/broken
+    - assets/bulk
+    - assets/linear
+    - assets/outline
+    - assets/twotone
